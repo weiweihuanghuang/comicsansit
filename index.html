@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Comic Sans It Bookmarklet</title>
-		<style>
-  		@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-  		body {
-  		  font-family: 'Open Sans', sans-serif;
-  		  padding: 3em 2em;
-  		  background: #f1f1f1;
-  		}
-  		.wrapper {
-    	  max-width: 580px;
+  <head>
+    <meta charset="utf-8">
+    <title>Product Sans It Bookmarklet</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Product+Sans&subset=latin,latin-ext,cyrillic,greek);
+      body {
+        font-family: 'Product Sans', sans-serif;
+        padding: 3em 2em;
+        background: #f1f1f1;
+      }
+      .wrapper {
+        max-width: 580px;
         margin: 0 auto;
         padding: 20px;
         background: #fff;
@@ -46,24 +46,23 @@
         padding: 10px 20px;
         color: #fff;
       }
-		</style>
-	</head>
+    </style>
+  </head>
   <body>
     <div class="wrapper">
-      <h1>Comic Sans It</h1>
-      <h2>Just imagine that your favorite website<br>is written in Comic Sans</h2>
-      <p>Sounds like cruel horror for you? Well, congratulations, you're one of thousands who don't like the Comic Sans Font and its further implementing into ad-campaigns and stuff. As <a href="http://comicsanscriminal.com/">ComicSansCriminal</a> perfectly describes, »Comic Sans was made for the little comic book style help speech bubbles in programs like Microsoft Word«. That's fact. But it has become very popular over the last years, so that a lot of serious institutions like hospitals, churches, restaurants or even police stations use this comical font nowadays.</p>
-      <p>This bookmarklet will show you how your favorite website will look like when it's written in Comic Sans - completely.<br>The following javascript function accomplishes the css injection when initialized:</p>
+      <h1>Product Sans It</h1>
+      <h2>You can try Product Sans everywhere.</h2>
+      <P>The following javascript function accomplishes the css injection when initialized:</p>
 <pre><code>javascript: (function () {
     var fileref = document.createElement('link');
     fileref.setAttribute('rel', 'stylesheet');
     fileref.setAttribute('type', 'text/css');
-    fileref.setAttribute('href', 'http://kaibrueckers.github.io/comicsansit/comicsansit.css');
+    fileref.setAttribute('href', 'http://weiweihuanghuang.github.io/productsansit/productsansit.css');
     document.getElementsByTagName('head')[0].appendChild(fileref);
 })();</code></pre>
       <p>Just drag this bookmarklet below and drop it to your browser bookmarks toolbar. Every time you click it now, the current website in your browser will change (not working on most SSL-encrypted websites, though).</p>
       <div class="bookmarklet">
-        <a href="javascript:(function() { var fileref = document.createElement('link');fileref.setAttribute('rel', 'stylesheet');fileref.setAttribute('type', 'text/css');fileref.setAttribute('href', 'http://kaibrueckers.github.io/comicsansit/comicsansit.css');document.getElementsByTagName('head')[0].appendChild(fileref); })();">Comic Sans It</a>
+        <a href="javascript:(function() { var fileref = document.createElement('link');fileref.setAttribute('rel', 'stylesheet');fileref.setAttribute('type', 'text/css');fileref.setAttribute('href', 'http://weiweihuanghuang.github.io/productsansit/productsansit.css');document.getElementsByTagName('head')[0].appendChild(fileref); })();">Product Sans It</a>
       </div>
     </div>
   </body>

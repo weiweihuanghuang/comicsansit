@@ -1,0 +1,3 @@
+/* Product Sans It */
+@import url(https://fonts.googleapis.com/css?family=Product+Sans&subset=latin,latin-ext,cyrillic,greek);
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, li, q, blockquote, cite, address, pre, em, strong, small, dfn, abbr, code, var, samp, kbd, sub, sup, i, b, bdo, time, mark, ruby, rt, rp, div, span, a, header, article, section, footer, aside, body, button, canvas, caption, col, colgroup, command, datalist, details, embed, fieldset, figure, form, input, html, label, legend, nav, mark, noscript, table, td, tbody, textarea, tfoot, th, thead, title, tr, cufon { font-family: 'Product Sans' !important; }

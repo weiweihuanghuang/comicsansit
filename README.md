@@ -1,6 +1,6 @@
-comicsansit
-===========
+productsansit
+=============
 
-Bookmarklet to change fonts on websites into Comic Sans. Why would you do that?
+Bookmarklet to change fonts on websites into Product Sans.
 
-See demo with bookmarklet: http://kaibrueckers.github.io/comicsansit/
+See demo with bookmarklet: http://weiweihuanghuang.github.io/productsansit/
